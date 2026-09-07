@@ -1,0 +1,11 @@
+{
+  "name": "otp-course-report",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types src/otp_course_service.test.ts"
+  },
+  "dependencies": { "zod": "^3.23.0" },
+  "devDependencies": { "typescript": "^5.6.0" }
+}

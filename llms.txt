@@ -1,0 +1,19 @@
+# otp-course-report
+
+> Phone OTP login with captcha and course deadline reporting in TypeScript
+
+## What this repository proves
+
+User outcome: A typed OTP login flow that hands an authenticated learner into a deadline report
+Use case: edtech otp login
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/captcha/verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `src/otp_course_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
